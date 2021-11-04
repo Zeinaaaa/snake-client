@@ -21,6 +21,9 @@ conn.on("connect", (connect) => {
   console.log('someone is connected')
   // code that does something when the connection is first established
   conn.write('Name: Zei');
+  // setTimeout(() => conn.write('Move: up'), 1000);
+  // setInterval(() => conn.write('Move: up'), 1000);
+
 });
 
 
